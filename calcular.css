@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(205, 213, 221);
+    background-size: cover; 
+}
+
+.principal{
+    text-align: center;
+    
+
+}
+fieldset{
+    border: none;
+    background-color: rgba(255,255,255,0.5); 
+    border-radius: 8px;
+}
+
+label, p{
+    color: black;
+
+}
+
+.titulo{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
+    }
+
+span{
+    color: red;
+}
+
+input{
+    border: none;
+    padding: 0 6px;
+    border-radius: 3px;
+    font-size: 13px;
+    width: 190px;
+    font-family: 'Josefin Sans';
+
+}
+
+button{
+    border: none;
+    font-family: 'Josefin Sans';
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: red;
+    transition: .3s;
+}

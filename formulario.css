@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(205, 213, 221);
+    background-size: cover; 
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.formulario{
+    text-align: center;
+}
+
+.form-completo{
+    text-align: center;
+}
+
+.tabla{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.boton{
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+}

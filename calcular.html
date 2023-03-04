@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="calcular.css">
+</head>
+<body>
+    <header class="titulo">
+            <h1>CALCULADORA</h1>
+    </header>
+<main class="principal">
+    <fieldset>
+        <label>SUMAR</label>
+        <input id="num1Sumar" type="number" placeholder="Primer número">
+        <label>+</label>
+        <input id="num2Sumar" type="number" placeholder="Segundo número">
+        <button onclick="calcularSumar();" id="calcularSumar">Calcular</button>
+        <p>Resultado: <span id="resultadoSumar">...</span></p>
+    </fieldset>
+    <fieldset>
+        <label>RESTAR</label>
+        <input id="num1res" type="number" placeholder="Primer número">
+        <label>-</label>
+        <input id="num2res" type="number" placeholder="Segundo número">
+        <button onclick="calcularResta();" id="calcularResta">Calcular</button>
+        <p>Resultado: <span id="resultadoRestar">...</span></p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <label>MULTIPLICAR</label>
+        <input id="num1multi" type="number" placeholder="Primer número">
+        <label>*</label>
+        <input id="num2multi" type="number" placeholder="Segundo número">
+        <button onclick="calcularMultiplicar();" id="calcularMultiplicar">Calcular</button>
+        <p>Resultado: <span id="resultadoMultiplicar">...</span></p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <label>DIVIDIR</label>
+        <input id="num1divi" type="number" placeholder="Primer número">
+        <label>/</label>
+        <input id="num2divi" type="number" placeholder="Segundo número">
+        <button onclick="calcularDividir();" id="calcularDividir">Calcular</button>
+        <p>Resultado: <span id="resultadoDividir">...</span></p>
+    </fieldset>
+    <script src="calcular.js"></script>
+</div>
+</main>
+</body>

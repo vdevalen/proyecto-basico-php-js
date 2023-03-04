@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css"/>
+</head>
+<body class="formulario">
+<h1>Formulario:</h1>
+<form action="saludo.php" method="post" class="form-completo" >
+<p>Nombre: <input type="text" name="nombre"  size="40" required/> <br> <br>
+Apellidos: <input type="text" name="apellidos" size="40" required/> <br> <br>
+Fecha de nacimiento: <input type="date" name="fecha" size="40" required/> <br>
+<table class="tabla">
+<tr>
+<td>
+<p>Genero:</p>
+    <input type="radio" name="genero"value="masculino" required>Masculino <br>
+    <input type="radio" name="genero" value="femenino" required>Femenino <br>
+    <input type="radio" name="genero" value="indefinido" required>Indefinido <br>
+</td>
+<td>
+<p>Documento:</p>
+    <input type="radio" name="documento" value="cc" required>Cedula <br>
+    <input type="radio" name="documento" value="ti" required>Tarjeta identidad <br>
+    <input type="radio" name="documento" value="extra" required>Tarjeta de extranjería <br>
+</td> 
+</table>
+<br>
+Numero de identificacion: <input type="number" name="email" size="35" required/></p>
+E-mail: <input type="email" name="email" size="35" required/></p>
+<p>Su opinión: <br/>
+<textarea name="comentario" rows="5" cols="50"></textarea>
+<p>
+<input class="boton" type="Submit" value ="enviar"> 
+<input class="boton" type="reset" value="borrar"></p>
+</form>
+</body>
+</html>
